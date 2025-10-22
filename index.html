@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My friggin packet profile boi</title>
+	<style>
+		body{
+			font-family: 'Gill Sans', 'Gill Sans MT', 'Callibri', 'Trebuchat MS',sans-serif;
+			 body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #ffe8f2;
+    }
+
+    header {
+      background-color: lightpink;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 28px;
+      color: black;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #444;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      background-color: lightpink;
+      padding: 10px;
+      text-align: center;
+      font-size: 20px;
+      color: #000;
+ 
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .section-title {
+    background-color: lightpink;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.about-text {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.work img {
+    width: 300px;     
+    height: 200px;     
+    object-fit: cover; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+}
+
+li {
+    margin-bottom: 5px;
+}
+.form-container{
+            background-color: ghostwhite;
+            padding: 20px 30px;
+            border-radius: 10px;
+            width: 600px;
+}
+label{
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, select, textarea, button{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 3px solic whitesmoke;
+            border-radius: 7px;
+            font-size: 14px;
+        }
+        input[type="radio"],
+        input[type="checkbox"]{
+            width: auto;
+            margin-right: 5px;
+        }
+        .form-buttons{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+         input[type="submit"],
+         input[type="reset"],
+         button{
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+            border: none;
+            transition: background 0.3s;
+
+         }
+
+         input[type="submit"]:hover,
+         input[type="reset"]:hover,
+         button:hover{
+            background:aliceblue;
+
+         }
+
+	</style>
+</head>
+      
+      <body>
+<header>
+    <img src="z2.jpeg">
+    <h1>Yo, I'm Z3 🥶</h1>
+    <p>Aspiring Web Developer 😎</p>
+  </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm Miguel and I love hooping, fashion, and being me 😜. I'm 5'8 at 13 and also the secret twin of Dave Ildefonso</p>
+        </section>
+
+        <section id="works">
+            <h2>My Works</h2>
+            
+            <div class="work">
+                <img src="damboi.png">
+                <p><strong>My Personal Slambook</strong></p>
+                <ul>
+                    <li>HTML & CSS Projects</li>
+                    <li>Personal Blog</li>
+                    <li>School Portfolio</li>
+                </ul>
+            </div>
+
+            <div class="work">
+                <img src="hassle.png">
+                <p><strong>My Top 3 Best Movie</strong></p>
+                <ul>
+                    <li>HTML & CSS Projects</li>
+                    <li>HTML Forms</li>
+                    <li>Lists, Links, and Images</li>
+                </ul>
+            </div>
+        </section> <br>
+
+        <section id="about">
+            <h2>Contact Me 🤫🏌️⛳</h2>
+            <div class="form-container">
+        <form>
+        	<label>NAME:</label>
+        	<input type="name" id= "Fname" name="name">
+
+        	<label> E-MAIL: </label>
+        	<input type="email" name="Mname" name="email">
+
+            </select> 
+            <br>
+            <p>HOW DID YOU FIND ME?</p>
+
+           <input type="radio" id="1" name="radio">
+            <label for="Facebook" style="display: inline;">Facebook</label>
+            <input type="radio" id="2" name="radio">
+            <label for="Instagram" style="display: inline;">Instagram</label> <br>
+            <input type="radio" id="3" name="radio">
+            <label for="Other" style="display: inline;">Other</label> <br>
+
+               <p>INTERESTED SERVICES</p>
+            <input type="checkbox" id="3" name="checkbox">
+            <label for="WDESIGN" style="display: inline;">WEB DESIGN</label>
+            <input type="checkbox" id="4" name="checkbox">
+            <label for="GDESIGN" style="display: inline;">GRAPHIC DESIGN</label> 
+            <input type="checkbox" id="5" name="checkbox">
+            <label for="ROBOTICS" style="display: inline;">ROBOTICS</label> <br>
+
+            <label for="GRADE LEVEL">RATING</label>
+            <select id="GRADE LEVEL" name="GRADE LEVEL">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                
+
+            <label>FEEDBACK</label>
+            <textarea>type here..</textarea> <br>
+
+        		<input type="submit" value="submit">
+                <div class="form-buttons">
+        	</div>
+        </div>
+
+        </form> <br>
+
+    </div>
+
+
+</body>
+</html>
